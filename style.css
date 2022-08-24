@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#banner_area {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    color: white;
+}
+
+.banner_area_text {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.banner_area_text h1 {
+    font-weight: 900px;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-top: 90px;
+}
+
+.banner_area_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.banner_area_btn a {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+#donate {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.donate_text {
+    width: 36%;
+    margin: auto;
+}
+
+.donate_text p {
+    margin-top: 20px;
+    color: grey;
+}
+
+#donate_amount {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    margin-top: 35px;
+    justify-content: center;
+    margin-bottom: 35px;
+
+
+
+}
+
+.donate_amount_item {
+    padding: 40px 40px;
+    color: grey;
+    font-weight: 700px;
+}
+
+.active {
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 3px;
+}
+
+.donate_amount_other {
+
+    width: 40%;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    color: grey;
+
+}
+
+.donate_amount_btn {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+#donate_plan {
+    margin-top: 80px;
+}
+
+.donate_plan_text {
+    width: 36%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.donate_plan_text p {
+    color: grey;
+    margin-top: 20px;
+}
+
+.donate_plan_item {
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content: center;
+}
+
+.donate_plan_1 {
+    background-color: rgba(144, 238, 144, 0.5);
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.donate_plan_2 {
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgba(255, 192, 203, 0.74);
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.donate_plan_3 {
+    background-color: rgba(245, 237, 205, 0.884);
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.plan_img_1,
+.plan_img_2,
+.plan_img_3 {
+    width: 38px;
+    height: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.donate_plan_1 h2 {
+    margin-bottom: 20px;
+}
+
+.donate_plan_1 p {
+    margin-bottom: 40px;
+    color: grey
+}
+
+.donate_plan_2 h2 {
+    margin-bottom: 20px;
+}
+
+.donate_plan_2 p {
+    margin-bottom: 40px;
+    color: grey;
+}
+
+.donate_plan_3 h2 {
+    margin-bottom: 20px;
+}
+
+.donate_plan_3 p {
+    color: grey;
+    margin-bottom: 40px;
+}
+
+#donate_today_stories {
+    width: 100%;
+    margin-top: 70px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.stories {
+    width: 30%;
+    height: 300px;
+    background-image: url(images/donation11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 100px;
+    margin-right: 15px;
+    color: white;
+
+}
+
+.partner {
+    width: 30%;
+    height: 300px;
+    background-image: url(images/donation12.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-left: 120px;
+    color: white;
+
+
+}
+
+
+#updates {
+    width: 45%;
+    margin: auto;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.updates_text p {
+    color: grey;
+    margin-top: 20px;
+}
+
+.subscribe {
+    background-color: rgba(245, 237, 205, 0.884);
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.subscribe_mail {
+    margin-top: 38px;
+    padding-left: 10px;
+    height: 25px;
+    width: 35%;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: lightgrey;
+    ;
+
+}
+
+.subscribe_btn {
+    height: 25px;
+    width: 14%;
+    color: white;
+    background-color: tomato;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+#footer_area {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+}
+
+.footer_text {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer_head {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+    color: tomato;
+
+}
